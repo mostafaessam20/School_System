@@ -15,7 +15,7 @@ class NationalitySeeder extends Seeder
      */
     public function run()
     {
-        Nationality::truncate();
+        // Nationality::truncate();
 
         $nationals = [
 

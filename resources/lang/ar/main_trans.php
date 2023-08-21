@@ -13,7 +13,12 @@ return [
     'Classrooms'=>'الفصول',
     'List_Classrooms'=>'قائمة الفصول الدراسية',
     'students'=>'الطلاب',
+    'list_students'=>'قائمة الطلاب',
+    'Students_Promotions'=>'ترقية الطلاب',
+
+    'add_student'=>'اضافة طالـــب جديد',
     'Teachers'=>'المعلمين',
+    'List_Teachers' => 'قائمة المعلمين',
     'Parents'=>'اولياء الامور',
     'List_Parents'=>'قائمة اولياء الامور',
     'Add_Parent'=>'اضافة ولي امر',

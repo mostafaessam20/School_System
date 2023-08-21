@@ -59,14 +59,15 @@
                     <!-- students-->
                     <li>
                         <a href="javascript:void(0);" data-toggle="collapse" data-target="#students-menu">
-                            <div class="pull-left"><i class="fas fa-user-graduate"></i></i></i><span
-                                    class="right-nav-text">{{trans('main_trans.students')}}</span></div>
+                            <div class="pull-left"><i class="fas fa-user-graduate"></i><span                                    class="right-nav-text">{{trans('main_trans.students')}}</span></div>
                             <div class="pull-right"><i class="ti-plus"></i></div>
                             <div class="clearfix"></div>
                         </a>
                         <ul id="students-menu" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="calendar.html">Events Calendar </a> </li>
-                            <li> <a href="calendar-list.html">List Calendar</a> </li>
+                            <li> <a href="{{route('Students.create')}}">{{trans('main_trans.add_student')}}</a> </li>
+                            <li> <a href="{{route('Students.index')}}">{{trans('main_trans.list_students')}}</a> </li>
+                            <li> <a href="{{route('Promotion.index')}}">{{trans('main_trans.Students_Promotions')}}</a> </li>
+
                         </ul>
                     </li>
 
@@ -81,8 +82,7 @@
                             <div class="clearfix"></div>
                         </a>
                         <ul id="Teachers-menu" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="calendar.html">Events Calendar </a> </li>
-                            <li> <a href="calendar-list.html">List Calendar</a> </li>
+                            <li> <a href="{{ route('Teachers.index') }}">{{ trans('main_trans.List_Teachers') }} </a> </li>
                         </ul>
                     </li>
 
@@ -96,8 +96,8 @@
                             <div class="clearfix"></div>
                         </a>
                         <ul id="Parents-menu" class="collapse" data-parent="#sidebarnav">
-                            <li> <a href="#">{{trans('main_trans.List_Parents')}} </a> </li>
-                            <li> <a href="{{url('add_parent') }}">{{trans('main_trans.Add_Parent')}}</a> </li>
+                            <li> <a href="{{url('add_parent') }}">{{trans('main_trans.List_Parents')}} </a> </li>
+                            
                         </ul>
                     </li>
 

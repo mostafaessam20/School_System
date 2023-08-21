@@ -20,6 +20,13 @@ class Section extends Model
     public function My_classs()
     {
         return $this->belongsTo('App\Models\Classroom', 'Class_id');
-    }
 
+
+    }
+                   //علاقة بين  فصول مع المعلمين 
+
+    public function Teachers()
+    {
+        return $this->belongsToMany(Teacher::class,'teacher_section');
+    }
 }

@@ -15,7 +15,7 @@ class ReligionSeeder extends Seeder
      */
     public function run()
     {
-        Religion::truncate();
+       // Religion::truncate();
 
         $Religions=[
 

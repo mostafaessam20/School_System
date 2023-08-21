@@ -12,7 +12,12 @@ return [
     'Classrooms'=>'Classrooms',
     'List_Classrooms'=>'List Classrooms',
     'students'=>'Students',
+    'list_students'=>'list Students',
+    'Students_Promotions'=>'Students Promotions',
+
+    'add_student'=>'Add Student',
     'Teachers'=>'Teachers',
+    'List_Teachers' => 'List Teachers',
     'Parents'=>'Parents',
     'Add_Parent'=>'Add Parent',
     'List_Parents'=>'List Parents',

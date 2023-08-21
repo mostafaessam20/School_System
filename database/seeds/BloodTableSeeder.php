@@ -17,7 +17,7 @@ class BloodTableSeeder extends Seeder
      */
     public function run()
     {
-        Type_Blood::truncate();
+        // Type_Blood::truncate();
 
         $bgs = ['O-', 'O+', 'A+', 'A-', 'B+', 'B-', 'AB+', 'AB-'];
 

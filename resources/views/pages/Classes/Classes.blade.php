@@ -57,7 +57,7 @@
                 <table id="datatable" class="table  table-hover table-sm table-bordered p-0" data-page-length="50"
                     style="text-align: center">
                     <thead>
-                        <tr>
+                        <tr class="table-success">
                             <th><input name="select_all" id="example-select-all" type="checkbox" onclick="CheckAll('box1', this)" /></th>
                             <th>#</th>
                             <th>{{ trans('My_Classes_trans.Name_class') }}</th>

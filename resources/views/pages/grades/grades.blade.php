@@ -40,7 +40,7 @@
                     <table id="datatable" class="table  table-hover table-sm table-bordered p-0" data-page-length="50"
                         style="text-align: center">
                         <thead>
-                            <tr>
+                            <tr class="table-success">
                                 <th>#</th>
                                 <th>{{ trans('Grades_trans.Name') }}</th>
                                 <th>{{ trans('Grades_trans.Notes') }}</th>
